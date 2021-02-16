@@ -1,2 +1,3 @@
 # NodeJS-Boilerplate
-Created with CodeSandbox
+### First install packages
+### Then either : `npm start` or `npm run dev`
