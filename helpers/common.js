@@ -11,7 +11,7 @@ const prettyLog = msg => {
 }
 const sendResponse = (res, code, obj) => {
     if(!Number.isInteger(code)){
-        let obj = code;
+        obj = code;
         code = 200
     }
     if(!res.headersSent)
