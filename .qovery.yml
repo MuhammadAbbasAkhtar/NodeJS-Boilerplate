@@ -1,0 +1,15 @@
+---
+application:
+  name: "nodejs-boilerplate"
+  project: "client-buddy"
+  organization: "QoveryCommunity"
+databases:
+- type: "MONGODB"
+  name: "MainDB"
+  version: "4.4"
+routers:
+- name: "main-nodejs-boilerplate"
+  routes:
+  - application_name: "nodejs-boilerplate"
+    paths:
+    - "/*"
